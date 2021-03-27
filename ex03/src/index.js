@@ -1,10 +1,10 @@
 class Person {
-   static display () {
+   static display() {
        var message = "Static method is invoked from Person class";
         return message;
     }
-    show () {
-        Person.display();
+    show() {
+        console.log(Person.display());
     }
 }
 var message = new Person();

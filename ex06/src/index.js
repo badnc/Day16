@@ -1,13 +1,6 @@
 exports.firstName = (firstName) => {
-    return firstName;
+    return firstName.toUpperCase();
 }
 exports.lastName = (lastName) => {
-    return lastName;
-}
-
-firstName();
-lastName();
-module.exports = {
-    firstName,
-    lastName
+    return lastName.toLowerCase();
 }
